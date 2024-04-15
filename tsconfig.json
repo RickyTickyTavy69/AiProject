@@ -29,7 +29,8 @@
   "include": ["src",
     "config/vitest/setupTests.ts",
     "vite.config.ts",
-    "client.d.ts"
+    "client.d.ts",
+    "scripts"
   ],
   "references": [{ "path": "./tsconfig.node.json" }],
 }

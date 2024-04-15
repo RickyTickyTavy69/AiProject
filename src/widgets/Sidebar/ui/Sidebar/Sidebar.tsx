@@ -15,7 +15,7 @@ const Sidebar = (): JSX.Element => {
 
   return (
       <div data-testid={"sidebar"}
-           className={`${opened ? 'w-44' : 'w-16'} transition-all pt-4 border-r-gray border-r-2 bg-navbar h-full flex flex-col box-content`}>
+           className={`${opened ? 'w-44' : 'w-16'} transition-all pt-4 border-r-gray border-r-2 bg-navbar h-full flex flex-col box-border`}>
 
           <div className={`flex justify-around pb-4`}>
               <Button data-testid={"toggleButton"} onClick={handleClick}

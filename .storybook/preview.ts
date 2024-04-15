@@ -1,4 +1,5 @@
 import type { Preview } from "@storybook/react";
+import 'loki/configure-react.js';
 import "../src/app/main.css";
 
 // import { withThemeByClassName } from "@storybook/addon-themes";
